@@ -1,0 +1,33 @@
+body {
+
+  font-family: "Source Sans Pro","Hiragino Kaku Gothic ProN","Meiryo","Arial","sans-serif";
+  font-size: 15px;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+header{
+  justify-content: space-between;
+}
+
+
+
+nav{
+  text-align: right;
+  font-size: 14px;
+}
+
+
+
+.nav-pc{
+  text-decoration: none;
+
+}
+
+.nav-pc:hover{
+  border-bottom: 3px;
+}
