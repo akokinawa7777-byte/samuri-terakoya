@@ -1,0 +1,116 @@
+body {
+
+  font-family: "Source Sans Pro","Hiragino Kaku Gothic ProN","Meiryo","Arial","sans-serif";
+  font-size: 15px;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+header{
+  justify-content: space-between;
+}
+
+
+
+nav{
+  text-align: right;
+  font-size: 14px;
+}
+
+
+
+#nav-pc a{
+  text-decoration: none;
+
+}
+
+#nav-pc a:hover{
+  border-bottom: 3px;
+  text-decoration: underline;
+}
+
+
+#main-visual{
+  position: relative;
+  height: 400px;
+}
+
+#main-messege{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #04414A;
+  color: #ffffff;
+  border-radius: 0 0 150px 0;
+  height: 100%;
+  width: 57%;
+  /*幅の設定の仕方が分からない*/
+  max-width: 620;
+  z-index: 11;
+}
+
+
+#main-messege > h1{
+  font-size: 60px;
+  font-weight: bold;
+  margin: 100px 0 0 50px;
+
+}
+
+#main-messege > p{
+  font-size: 28px;
+  margin: 0 0 0 50px;
+
+}
+
+#main-visual > img{
+  max-width: 600px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  height: 100%;
+  width:100%;
+}
+
+
+h2{
+  margin-top: 40px;
+}
+
+.index-h2::after{
+  border-right: 3px solid blue;
+  margin: 0 0 0 10px;
+}
+
+
+h3{
+  font-size: 27px;
+}
+
+
+#concept{
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#concept-flex{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#concept-flex > div{
+  width: 50%;
+  margin: 20px;
+}
+
+.concept-photo{
+  width: 80%;
+}
