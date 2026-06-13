@@ -1,0 +1,46 @@
+body{
+  font-size: 100%;
+  max-width: 1080px;
+  min-width: 960px;
+  margin: 0 auto;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav-pc{
+  font-size: 14px;
+  padding-top: 20px;
+  display: block;
+}
+
+#nav-pc > a {
+  text-decoration: none;
+  margin-left: 20px;
+
+}
+
+#nav-pc > a:link{
+  color: black;
+}
+
+#nav-pc > a:visited{
+  color: black;
+}
+
+
+#instagram{
+  width: 20px;
+
+}
+
+#main-visual > img{
+  width: 100%;
+}
+
+h2{
+  font-weight: bold;
+  text-align: center;
+}
